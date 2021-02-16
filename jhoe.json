@@ -12,9 +12,6 @@ cat << EOF >/etc/v2ray/config.json
 			"protocol": "vmess",
 			"settings": {
 				"clients": [
-					{"id": "1630d1f3-3a91-44ac-8d32-8f4e0050b722", "level": 1, "alterId": 44},
-					{"id": "45be6b6d-5eb3-4a3b-908c-7286e274b2a5", "level": 1, "alterId": 44},
-					{"id": "d0017a9f-328c-497b-aa97-5fa1a7124892", "level": 1, "alterId": 44},
 					{"id": "c4581d67-4a83-415e-81bf-edaa2d3bfb1f", "level": 1, "alterId": 44},
 					{"id": "c50c17cd-8948-479d-da2c-b38ff00e4dea", "level": 1, "alterId": 44}
 				]
@@ -25,11 +22,11 @@ cat << EOF >/etc/v2ray/config.json
 			 "tlsSettings": {
          "certificates": [
             {
-              "certificateFile": "/etc/letsencrypt/live/s2.gtmnoload.tk/cert.pem",
-              "keyFile": "/etc/letsencrypt/live/s2.gtmnoload.tk/privkey.pem"
+              "certificateFile": "/etc/letsencrypt/live/JHODNS/cert.pem",
+              "keyFile": "/etc/letsencrypt/live/JHODNS/privkey.pem"
             }
           ],
-          "serverName": "s2.gtmnoload.tk"
+          "serverName": "JHODNS"
         },
 		"wsSettings": {
           "headers": {},
