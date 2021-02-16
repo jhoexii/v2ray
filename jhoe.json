@@ -10,7 +10,7 @@
 			"protocol": "vmess",
 			"settings": {
 				"clients": [
-					{"id": "c4581d67-4a83-415e-81bf-edaa2d3bfb1f", "level": 1, "alterId": 44},
+					
 					{"id": "c50c17cd-8948-479d-da2c-b38ff00e4dea", "level": 1, "alterId": 44}
 				]
 			},
